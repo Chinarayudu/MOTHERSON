@@ -1,0 +1,147 @@
+.projectCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 69vw;
+  box-shadow: 0px 6px 64px 0px #7090b01a;
+  height: 36.5vw;
+  border-radius: 24px;
+  margin-bottom: 45px;
+}
+
+.projectDescription {
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.projectImage {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Route2ProjectName {
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  color: #25282b;
+  margin-left: 28px;
+  margin-bottom: 8px;
+}
+
+.Route2ProjectDesc {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+  margin-left: 28px;
+  margin-bottom: 8px;
+}
+
+.ProjectLink {
+  border-radius: 24px;
+  border: 1px;
+  color: #25282b;
+  border: 1px solid #25282b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 28px;
+  padding: 8px;
+  background-color: #ffffff;
+}
+
+.ImageRight {
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  width: 100%;
+}
+
+.ImageLeft {
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    width: 23.5px;
+    height: 23.5px;
+    top: 5.25px;
+    left: 5.25px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .Route2ProjectName {
+    font-family: Playfair Display;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    color: #25282b;
+    margin-left: 18px;
+    margin-bottom: 8px;
+  }
+
+  .Route2ProjectDesc {
+    font-family: Nunito;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    color: #828282;
+    margin-left: 18px;
+    margin-bottom: 5px;
+  }
+  .ProjectLink {
+    border-radius: 8px;
+    border: 1px;
+    color: #25282b;
+    border: 1px solid #25282b;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 18px;
+    padding: 5px;
+  }
+  .projectCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    box-shadow: 0px 6px 64px 0px #7090b01a;
+    height: 42vw;
+    border-radius: 24px;
+    margin-bottom: 45px;
+  }
+
+  .projectsPageTitle {
+    height: 72px;
+    font-family: Playfair Display;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    color: #25282b;
+  }
+
+  .copyright {
+    font-family: Nunito;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    height: 22px;
+    color: #828282;
+  }
+}
